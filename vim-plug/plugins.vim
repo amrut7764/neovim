@@ -47,7 +47,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/onedark.vim'
+    "Plug 'christianchiarulli/onedark.vim'
+    Plug 'gruvbox-community/gruvbox'
     " Plug 'kaicataldo/material.vim'
     " Plug 'NLKNguyen/papercolor-theme'
     " Plug 'tomasiser/vim-code-dark'
@@ -90,6 +91,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'Shougo/echodoc.vim'
     " Interactive code
     Plug 'ChristianChiarulli/codi.vim'
+    " Indentation lines
+    Plug 'Yggdroot/indentLine' " Pretty indented lines
+    Plug 'davidhalter/jedi-vim'
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
   endif
